@@ -1,0 +1,3 @@
+#kde-apps/*
+#kde-frameworks/*
+>=dev-libs/openssl-3.0.0
