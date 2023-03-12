@@ -1,0 +1,10 @@
+configuration {
+  show-icons:         true;
+  icon-theme:         "Papirus-Apps";
+  terminal:           "kitty";
+  cycle:              false;
+  hide-scrollbar:     true;
+  disable-history:    false;
+  opacity:            0.5;
+}
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
