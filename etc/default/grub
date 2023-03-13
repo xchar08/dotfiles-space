@@ -18,7 +18,7 @@ GRUB_DISTRIBUTOR="Gentoo"
 GRUB_TIMEOUT_STYLE=hidden
 
 # Append parameters to the linux kernel command line
-GRUB_CMDLINE_LINUX="rd.luks.partuuid=a2da8797-a583-45d4-a87b-82ed65018464"
+GRUB_CMDLINE_LINUX="rd.luks.partuuid=<partuuid>"
 #
 # Examples:
 #
