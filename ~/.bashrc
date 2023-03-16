@@ -11,7 +11,7 @@ alias gcc="gcc -Og -ggdb3 -std=c99"
 alias valgrind="valgrind -s --show-leak-kinds=all --track-origins=yes --leak-check=full"
 alias battery="acpi -i"
 alias brightness="xrandr --output eDP1 --brightness"
-alias sudo="doas"
+#alias sudo="doas"
 nitch
 export "$(dbus-launch)"
 cd ~/Desktop || exit
