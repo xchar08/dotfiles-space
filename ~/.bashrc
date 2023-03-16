@@ -1,8 +1,8 @@
 #!/bin/bash
 
 alias ls='ls -lah --color=auto'
-alias ud='doas emerge --sync && doas emerge --ask net-im/discord'
-alias us='doas emerge --sync && doas emerge -auDN world && doas dispatch-conf && doas emerge -auDN world && doas emerge --depclean && doas emerge -1 @module-rebuild && doas grub-mkconfig -o /boot/grub/grub.cfg'
+alias ud='sudo emerge --sync && sudo emerge --ask net-im/discord'
+alias us='sudo emerge --sync && sudo emerge -auDN world && sudo dispatch-conf && sudo emerge -auDN world && sudo emerge --depclean && sudo emerge -1 @module-rebuild && sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue) <%an >%Creset' --abbrev-commit --date=relative"
 alias atree='tree --metafirst -pAuDts'
 alias .git="cd ~/.github/"
